@@ -7,13 +7,15 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="img/avatar-perfil-png" alt="avatar da fernanda" srcset="">
-<p> Eu sou Bruno Bueno</p>
-<h1>Eu aprendo programação</h1>
-<p>Sou estudante do segundo ano do EM
-    aprendo sobre Programação e Robótica
-    usando HTML, CSS, Java via VSCode.
+    <header class="container text-center"> 
+        <img src="img/avatar-perfil-png" class="rounded-circle" width="150" height="150" alt="avatar de Bruno" srcset="">
+<p class="lead">Eu sou Bruno Bueno</p>
+<p>Eu aprendo programação</p>
+<p>Sou estudante 
+    Estudo pensamento computacional no ensino médio
+    Aprendo usando HTML, CSS, Java Script.
     Veja os projetos que já desenvolvi!</p>
+    <p> Minhas habilidades</p>
     <div>
 <p class="badge text-bg-secondary">HTML</p>
 <p class="badge text-bg-secondary">CSS</p>
@@ -24,18 +26,121 @@
     <main class="container mt-5">
         <h2>Meus projetos</h2>
         <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src"=img/projeto-1.png" class="card-img-top" alt="imagem do projeto de biblioteca">
-                    <div class="card-body">
-                        h5 class="card-title">Minha biblioteca: uma webpage personalizados</h5>
-                        <p class="card-text">Some qick example text to build on
-                            the card title and make up the bulk of the card's content. </p>
-                        < href="#" class="btn btn-primary">Go somewhere</a>
+            <!--Projeto-->
+            <div class="modal" id="moal1" tabindex="-1">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header"></div>
+                    <h5 class="modal-title">Minha bibiloteca: uma webpage personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
                     </div>
+                    <div class="modal-body">
+                    <p>O projeto é uma página web criada com HTML e CSS, destinada exibir uma coleção 
+                        pesso
+                        al de livros favoritos. O objetivo é criar um ambiente virtual onde seja possível 
+                        compartilhar seus livros preferidos, fornecendo uma descrição breve de cada um,
+                        incluindo o autor, o ano de publicação e uma opção de compra.</p>
+                        <p>A estrutura do site é baseada em HTML,que define a semântica e o layout do conteúdo,
+                            enquanto CSS é usado para estilizar a página visualmente, incluindo
+                            cores, tipografia e a disposição dos elementos.</p>
+                            <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma
+                                divisão principal (.container) que apresentam o propósito do site e a coleção de 
+                                livros em uma seção flexível (.livros). Cada livro é destacado em seu próprio container
+                                (livro), mostrando uma imagem da capa, detalhes do livro e um link de compra. O 
+                                desingn responsivo é garatido pelo uso de uma tag viewport e um flexível que 
+                                se adapta a diferentes tamanhos da tela.</p>
+                                <P>O CSS persinaliza o virtual do site, usando variáveis para cores, estilizando o 
+                                    texto com uma fonte importada do Google Fonts e aplicando um esquema de cores
+                                    suaves e botões interativos. O uso de HTML e CSS é importante, pois assim é possível
+                                    criar um site acessível e esteticamente agradável sem a necessidade de scripts
+                                    complexos, com foco na usabilidade e na experiência da pessoa usária. A escolha 
+                                    de tipografia e do esquema das cores contribui para a atmosfera acolhedora do site
+                                    incentivando a exploração da coleção de livro.</P>
+                    <img src="img/projeto-1.png" alt="imagem representativa do projeto de uma bibiloteca">
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                        <div class="modal-footer">
+                    <a href="">Ver projetos ao vivo</a>
+                <a href="">Ver código do projeto</a>
+            </div>
+        <p class="card-text">Este projeto é uma página web que apresenta
+            uma lista dos meus livros favoritos, 
+            incluindo informações sobre os atores, 
+            data de publicação e links para compra na Amazon.
+            A página é estilizada com CSS para 
+            uma visualização agradável e 
+            usa fontes externas no Google Fonts. </p> 
+            <button type="button" class="bnt bnt-link" data-bs-toogle="modal" data-bs-target="#modal1">veja o projeto</button>    
                 </div>
             </div>
         </div>
+<!--projeto 2-->
+<div class="modal" id="moda12" tabindex="-1">
+    <div class="modal">
+        <div class="card-body">
+<h5 class="modal-title">Decidindo o futuro: Uma jornada interativa sobre a Inteligência
+Artificial</h5>
+<p>O projeto consiste em uma aplicação web interativa, desenvolvida com HTML, CSS,
+    e JavaScript, que simula uma experiência narrativa centrada no tema Inteligência
+    Artificial. O objetivo é engajar os jogadores em um cenário fictício que aborda o avanço
+    da IA e suas possíveis consequências para a humanidade, destacando a importância da 
+    reflexão ética sobre a tecnología</p>
+<p>O HTML estrutura o conteúdo da página, dividindo-o sem seções como a tela inicial,
+    caixa de perguntas, alternativas da resposta, e o resaultado final baseado nas escolhas 
+do jogador. O CSS é utilizado para estilizar a página, empregando um esquema de cores 
+futuristas e layout responsivo para melhorar a experiência do usúario. 
+JavaScript é usado para adicionar interatividade ao jogo, manipulando o DOM para 
+atualizando o conteúdo da página conforme as escolhas do jogador, e determinando o fluxo
+da narrativa através de uma série de perguntas e respostas.</p>
+<p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por 
+    uma divisão principal (.container) que apresenta o próposito do site e coleção de 
+    livros em uma seção flexível (.livros). Cada livro é destacado em seu próprio container 
+    (.livros), mostrando uma imagem de capa , detalhes do livro e um link de compra. O desing 
+    responsivo é garantido pelo uso de uma meta tag viewporte um layout flexível que se 
+    adapta a diferentes tamanhos de tela</p>  
+<p>Os scripts JavaScripts incluem módulo para gerar nomes aleatórios, definir
+    as perguntas e as lógicas de jogo, como iniciar o jogo, apresentar perguntas e 
+    alternativas, processar as escolhas dos jogadores, e exibir o resultado final. Este
+    desing modular facilita a manutenção e a expanção futura do jogo. A importância das 
+    ferramentas utilizadas (HTML, CSS, JavaScript) reside na criação de uma experiência
+    interativa que não apenas entretém, mas também educa os jogadores sobre a complexidade
+    ética e social da IA, incentivando a reflexão crítica sobre o papel da tecnologia em 
+    nossa vidas.</p>
+<img src="img/projeto-2.png" class="img-fluid w-100" alt="projeto 2">
+<div class="modal1-'footer'">
+    <a href="https://femascheti.github.io/tecnicas-computacionais-refletindo-sobre-ia">Ver projeto ao vivo</a>
+<a href="https:github.com/femascheti/tecnicas-computacionais-refletindo-sobre-ia">Ver código do projeto</a>
+</div>
+<button type="button" class="bnt bnt-link"data-bs-toogle="modal" data-bs-target="moda12">Veja o projeto</button>
+        </div>
+    </div>
+</div>
+<!--projeto 3-->
+<div class="col-md-4">
+<div class="card">
+<img src="img/projeto-1.png" class="card-img-top" alt="imagem do projeto de bibiloteca">
+<div class="card-body">
+    <h5 class="card-title">minha biblioteca: uma webpage personalizada</h5>
+<p class="card-text">este projeto é uma página web que apresenta uma lista dos
+    meus livros 
+    favoritos, incluindo informações sobre os autores, datas de publicação e links
+para comprar 
+na Amazon. A página é estilizada com CSS para uma visualização agradável e 
+usa fontes externas no Google Fonts. </p>
+<button type="button" class="bnt bnt-link" data-bs-toogle="modal" data-bs-target="moda13">veja o projeto</button>
+</div>
+</div>
+</div>
+</div>
     </main>
-</body>
-</html>
+    <footer class="container">
+        <h2>entre em contato.</h2>
+        <div>
+            <a href="http://github.com/femascheti">github</a>
+            <p class="my-5 text-center">copyright 2024, produzido por Bruno</p>
+        </footer>
+    </body>
+    </html>
